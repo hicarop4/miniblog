@@ -1,0 +1,25 @@
+.edit_post {
+  text-align: center;
+}
+
+.edit_post p {
+  color: #aaa;
+  margin-bottom: 2em;
+}
+
+.edit_post .preview_title {
+  margin: 0em 0em 0.5em;
+}
+
+.edit_post form {
+  margin: auto;
+}
+
+.edit_post textarea {
+  resize: none;
+}
+
+.edit_post img {
+  width: 100%;
+  max-width: 500px;
+}

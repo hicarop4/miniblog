@@ -1,0 +1,40 @@
+.post_detail {
+  margin-bottom: 3em;
+}
+
+.post_detail img {
+  max-width: 600px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.post_detail img:hover {
+  opacity: 80%;
+}
+
+.post_detail h2 {
+  margin-bottom: 0em;
+}
+
+.post_detail .tags {
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  display: flex;
+}
+
+.tags p {
+  margin-right: 0.5em;
+}
+
+.tags span {
+  font-weight: bold;
+}
+
+.createdBy {
+  font-style: italic;
+  color: #888;
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
+  margin-top: 0.5em;
+}

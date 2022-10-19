@@ -1,0 +1,54 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  min-width: 320px;
+  animation-name: posAnim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.search_form {
+  max-width: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  margin-right: 10px;
+  width: 40%;
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+}
+
+.noposts a {
+  padding: 10px 25px;
+}
+
+@keyframes posAnim {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

@@ -1,0 +1,32 @@
+.post_container {
+  text-align: center;
+}
+
+.post_container img {
+  width: 100%;
+  max-width: 800px;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.post_container h3 {
+  margin-bottom: 0.2em;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+}
+
+.tags p {
+  margin-right: 1em;
+  text-align: center;
+}
+
+.tags p:last-child {
+  margin-right: 0;
+}
+
+.tags span {
+  font-weight: bold;
+}

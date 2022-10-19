@@ -1,0 +1,38 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.login h1 {
+  margin-bottom: 0px;
+  margin-top: 1em;
+}
+.login p {
+  margin-bottom: 1.8em;
+  color: #aaa;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+  padding-bottom: 5px;
+}
+
+.form label span {
+  margin-bottom: 10px;
+}
+.form label input {
+  outline-width: 0;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 0.6em;
+  width: 100%;
+}
