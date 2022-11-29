@@ -1,6 +1,6 @@
 # MiniBlog
-Projeto feito com ReactJS e Javascript
-
+## Projeto base feito com ReactJS e Javascript
+Veja aqui o projeto final: [Blog do Jack](https://blogdojack.netlify.app)
 
 # Getting Started with Create React App
 
